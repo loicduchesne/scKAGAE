@@ -1,0 +1,3 @@
+[submodule "GraphKan"]
+	path = GraphKan
+	url = https://github.com/Ryanfzhang/GraphKan
