@@ -21,7 +21,7 @@ only one Convolutional layer for inference, but suffers from instability that ri
 
 <img src="docs/KANmodel2.jpeg" alt="model" style="zoom: 100%;" />
 
----
+
 ## Training and inference
 Because the model's architecture is exposed in scKAGAE.ipynb, you can easily adapt it for your use. The current parameters are optimized for PBMC-CTL dataset, so you may need to adjust the parameters given other datasets. Be aware that the model is sensitive to hyperparameter changes, so it would be recommended to leave them as is in the current implementation.
 
@@ -30,14 +30,15 @@ Once the data is in the appropriate format, you may run training. It is recommen
 
 ## Requirements
 - Python 3.10 (tested on 3.10.15)
-- Numpy
-- Pandas
-- tqdm
-- Plotly
-- Sci-kit learn
-- PyTorch
-- PyTorch Geometric (https://pytorch-geometric.readthedocs.io/en/stable/notes/installation.html)
 - GraphKan (https://github.com/Ryanfzhang/GraphKan)
+- PyTorch Geometric (https://pytorch-geometric.readthedocs.io/en/stable/notes/installation.html)
+- PyTorch
+- Sci-kit learn
+- SciPy
+- Plotly
+- tqdm
+- Pandas
+- Numpy
 
 ---
 ## Data pre-processing
