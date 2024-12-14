@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Duchesne"
+  given-names: "Loïc"
+title: "Kolmogorov-Arnold Graph Auto-Encoder for semi-supervised Gene Regulatory Networks inference"
+version: 2.0.4
+url: "https://github.com/loicduchesne/scKAGAE"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Duchesne"
+      given-names: "Loïc"
+  month: 12
+  start: 1 # First page number
+  end: 7 # Last page number
+  title: "Kolmogorov-Arnold Graph Auto-Encoder for semi-supervised Gene Regulatory Networks inference"
+  year: 2024

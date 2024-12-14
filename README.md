@@ -91,8 +91,8 @@ If you wish to run this on your own dataset, make sure to define all the above m
 ## Citation
 Please cite our paper if you wish to cite this repository.
 
-```
-@inproceedings{duchesne2024sckagae,
+```bibtex
+@article{duchesne2024sckagae,
 title={Kolmogorov-Arnold Graph Auto-Encoder for Gene Regulatory Networks inference},
 author={Duchesne, Loïc},
 pages={1--7},
